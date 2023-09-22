@@ -2,16 +2,15 @@
     position: relative;
     background: $ogency-black;
     padding: 0 0 113px;
-
     @media (max-width: 991px) {
         padding-bottom: 80px;
     }
 }
-.about-one__thumb{
+
+.about-one__thumb {
     position: relative;
     margin: 31px 0 0px;
-
-    &__round--top{
+    &__round--top {
         width: 190px;
         height: 190px;
         background-color: $ogency-black2;
@@ -25,21 +24,20 @@
         -o-animation: scalings 1.5s alternate infinite;
         animation: scalings 1.5s alternate infinite;
     }
-    &__img{
+    &__img {
         background-color: $ogency-black;
         border-radius: 50%;
         display: inline-block;
         overflow: hidden;
         position: relative;
-
-        img{
+        img {
             max-width: 100%;
             height: auto;
             mix-blend-mode: luminosity;
             transition: all 500ms ease;
         }
     }
-    &__round--bottom{
+    &__round--bottom {
         width: 56px;
         height: 56px;
         background-color: $ogency-base;
@@ -48,80 +46,77 @@
         left: -76px;
         bottom: 43px;
         animation: animationFrames 20s infinite linear;
-
-        @media (max-width: 991px){
+        @media (max-width: 991px) {
             left: 0;
         }
-        @media (max-width: 767px){
+        @media (max-width: 767px) {
             animation: none;
         }
     }
 }
-.about-one__content{
-    position: relative;
 
-    @media (max-width: 991px){
+.about-one__content {
+    position: relative;
+    @media (max-width: 991px) {
         margin-top: 40px;
     }
-
-    .section-title{
+    .section-title {
         margin-bottom: 31px;
     }
-    &__text-one{
+    &__text-one {
         margin: 0;
     }
-    &__text-two{
+    &__text-two {
         margin-bottom: 40px;
     }
 }
+
+
 /*-- About Two --*/
-.about-two{
+
+.about-two {
     position: relative;
     background-color: $ogency-black;
     background-size: auto;
     background-position: top left;
     background-repeat: no-repeat;
     padding: 120px 0;
-
-    @media (max-width: 767px){
+    @media (max-width: 767px) {
         padding: 80px 0 60px;
     }
 }
-.about-two__left{
+
+.about-two__left {
     position: relative;
-
-    .section-title{
+    .section-title {
         margin-bottom: 50px;
-
-        @media (max-width: 767px){
+        @media (max-width: 767px) {
             margin-bottom: 35px;
         }
     }
-    &--text{
+    &--text {
         color: $ogency-white;
         margin: 8px 0 0;
     }
 }
-.about-two__right{
+
+.about-two__right {
     position: relative;
     margin-top: 146px;
-
-    @media (max-width: 767px){
+    @media (max-width: 767px) {
         margin-top: 90px;
     }
-
-    &--text{
+    &--text {
         line-height: 30px;
         margin-bottom: 30px;
     }
-    &--quote{
+    &--quote {
         color: $ogency-white;
         line-height: 30px;
         margin: 0 0 34px;
         padding: 0 0 0 21px;
         position: relative;
-
-        &::before{
+        &::before {
             height: 72%;
             width: 1px;
             content: '';
@@ -134,107 +129,103 @@
         }
     }
 }
-.fact-two__item{
-    position: relative;
 
-    @media (max-width: 767px){
+.fact-two__item {
+    position: relative;
+    @media (max-width: 767px) {
         margin-bottom: 30px;
     }
-    .fact-one__item__count{
+    .fact-one__item__count {
         margin-left: -4px;
+        -webkit-text-stroke-color: #c2bebe;
     }
-    .fact-one__item__title{
+    .fact-one__item__title {
         max-width: 100%;
     }
 }
-.divider-section{
+
+.divider-section {
     background-color: $ogency-black;
 }
-.br-divider{
+
+.br-divider {
     border-top: 1px solid $ogency-black2;
 }
+
+
 /*-- About Three --*/
-.about-three{
+
+.about-three {
     background-color: $ogency-black;
     position: relative;
     padding: 120px 0;
-
-    @media (max-width: 767px){
+    @media (max-width: 767px) {
         padding: 80px 0;
     }
 }
-.about-three__thumb{
+
+.about-three__thumb {
     position: relative;
     padding-left: 170px;
-
-    @media (max-width: 767px){
+    @media (max-width: 767px) {
         padding-left: 0;
     }
-    @media (min-width: 992px) and (max-width: 1199px){
+    @media (min-width: 992px) and (max-width: 1199px) {
         margin-right: -70px;
     }
-
-    &--one{
+    &--one {
         background-color: $ogency-black2;
         display: inline-block;
         position: absolute;
         left: 0;
         bottom: 0;
         z-index: 1;
-
-        @media (max-width: 767px){
+        @media (max-width: 767px) {
             position: relative;
             margin-bottom: 25px;
         }
-
-        img{
+        img {
             mix-blend-mode: luminosity;
             max-width: 100%;
         }
     }
-    &--two{
+    &--two {
         background-color: $ogency-black2;
         display: inline-block;
         position: relative;
-
-        img{
+        img {
             mix-blend-mode: luminosity;
             max-width: 100%;
         }
     }
 }
 
-
-
-.about-three__content{
+.about-three__content {
     position: relative;
     padding: 0 0 0 70px;
-
-    @media (max-width: 991px){
+    @media (max-width: 991px) {
         padding: 50px 0 0;
     }
-
-    .section-title{
+    .section-title {
         margin-bottom: 35px;
     }
-
-    &__heading{
+    &__heading {
         color: $ogency-base;
         font-size: 24px;
         letter-spacing: -.96px;
         margin-bottom: 16px;
     }
-    &__text{
+    &__text {
         line-height: 30px;
         margin-bottom: 39px;
     }
 }
-.about-three__author{
+
+.about-three__author {
     position: relative;
     padding: 0 0 0 93px;
     min-height: 70px;
-
-    &__thumb{
+    &__thumb {
         width: 70px;
         height: 70px;
         border-radius: 50%;
@@ -244,8 +235,7 @@
         position: absolute;
         left: 0;
         top: 0;
-
-        img{
+        img {
             width: 100%;
             height: 100%;
             border-radius: 100%;
@@ -253,9 +243,8 @@
             mix-blend-mode: luminosity;
         }
     }
-    &__meta{
+    &__meta {
         color: $ogency-white;
         margin: 9px 0 0;
     }
 }
-
